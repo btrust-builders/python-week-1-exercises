@@ -3,9 +3,9 @@ import string
 from typing import Union, Tuple, List, Dict
 
 # Name Assignment (variables and constants)
-MINING_REWARD = None # TODO: Assign the current bitcoin mining reward
-current_block_height = None # TODO: Assign the current block height as an integer
-BTC_TO_SATS = None # TODO: Assign the number of satoshis in one Bitcoin
+MINING_REWARD = 3.125 # TODO: Assign the current bitcoin mining reward
+current_block_height = 800_000 # TODO: Assign the current block height as an integer
+BTC_TO_SATS = 100_000_000 # TODO: Assign the number of satoshis in one Bitcoin
 
 # Functions
 def calculate_total_reward(blocks_mined) -> float:
